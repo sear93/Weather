@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  border: 20px solid #2782AD;
+  background-color: #309ACD;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #fff;
+}
+
+.header {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.main ul {
+  border: 2px solid #fff;
+  font-size: 0;
+}
+
+.main ul:hover li {
+  opacity: 0.5;
+}
+
+.main ul li {
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  border: 2px solid #fff;
+  font-size: 24px;
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+.main ul li span {
+  color: rgba(255, 255, 255, 0.6);
+  display: block;
+  margin-top: 6px;
+}
+
+.main ul li span i {
+  font-size: 34px;
+  vertical-align: middle;
+}
+
+.main ul > li:hover {
+  opacity: 1;
+}
+
+.Lisbon {
+  width: 50%;
+  background-color: #309ACD;
+}
+
+.Paris {
+  width: 25%;
+  background-color: #30CDCD;
+}
+
+.Belgrade {
+  width: 25%;
+  background-color: #9A669A;
+}
+
+.Kiyv {
+  width: 25%;
+  background-color: #C34545;
+}
+
+.TelAviv {
+  width: 25%;
+  background-color: #E36749;
+}
+
+.Cair {
+  width: 25%;
+  background-color: #FFCD66;
+}
+
+.NewYork {
+  width: 25%;
+  background-color: #9ACD9A;
+}
+
+.NewDelhi {
+  width: 25%;
+  background-color: #669A9A;
+}
+
+.SanFrancisco {
+  width: 50%;
+  background-color: #CD669A;
+}
+
+.Tokyo {
+  width: 25%;
+  background-color: #309A66;
+}
+
+.Sydney {
+  width: 100%;
+  background-color: #66669A;
+}
+
+.footer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 0 40px 0;
+}
+
+.footer p {
+  font-size: 16px;
+  font-weight: 600;
+}
