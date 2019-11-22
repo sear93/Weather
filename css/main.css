@@ -9,7 +9,7 @@
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   border: 20px solid #2782AD;
   background-color: #309ACD;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
