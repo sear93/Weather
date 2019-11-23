@@ -3,9 +3,9 @@
   margin: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-transition: all 0.1s ease-in;
-  -o-transition: all 0.1s ease-in;
-  transition: all 0.1s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 body {
@@ -57,7 +57,7 @@ body {
   vertical-align: middle;
 }
 
-.main ul > li:hover {
+.main ul li:hover {
   opacity: 1;
 }
 
